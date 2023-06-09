@@ -5,5 +5,5 @@ Below a preview:
 
 * [Check my sample showed in the YouTube video](./sample.json)
 
-📺check my YouTube Video tutorial to add the like and dislike button:
+📺 Check my YouTube Video tutorial:
 https://youtu.be/q-8BzgXEwGk
