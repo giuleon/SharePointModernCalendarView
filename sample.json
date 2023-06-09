@@ -1,0 +1,121 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/calendar-formatting.schema.json",
+    "additionalEventClass": {
+      "operator": ":",
+      "operands": [
+        {
+          "operator": "==",
+          "operands": [
+            "[$Title]",
+            "Proactive Planning"
+          ]
+        },
+        "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgGray' , 'sp-css-backgroundColor-BgLightGray sp-css-color-LightGrayFont')",
+        {
+          "operator": ":",
+          "operands": [
+            {
+              "operator": "==",
+              "operands": [
+                "[$Title]",
+                "Training"
+              ]
+            },
+            "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgGreen' , 'sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont')",
+            {
+              "operator": ":",
+              "operands": [
+                {
+                  "operator": "==",
+                  "operands": [
+                    "[$Title]",
+                    "Microsoft Lists"
+                  ]
+                },
+                "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgBrown' , 'sp-css-backgroundColor-BgGold sp-css-color-GoldFont')+' sp-field-fontSizeSmall'",
+                {
+                  "operator": ":",
+                  "operands": [
+                    {
+                      "operator": "==",
+                      "operands": [
+                        "[$Title]",
+                        "Project Y Scrum Meeting"
+                      ]
+                    },
+                    "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkRed' , 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont')+' sp-field-fontSizeSmall'",
+                    {
+                      "operator": ":",
+                      "operands": [
+                        {
+                          "operator": "==",
+                          "operands": [
+                            "[$Title]",
+                            "Agenda Onboarding Brainstorm"
+                          ]
+                        },
+                        "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgTeal' , 'sp-css-backgroundColor-BgCyan sp-css-color-CyanFont')+' sp-field-fontSizeSmall'",
+                        {
+                          "operator": ":",
+                          "operands": [
+                            {
+                              "operator": "==",
+                              "operands": [
+                                "[$Title]",
+                                "Project X"
+                              ]
+                            },
+                            "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgLavender' , 'sp-css-backgroundColor-BgLightPurple sp-css-color-LightPurpleFont')+' sp-field-fontSizeSmall'",
+                            {
+                              "operator": ":",
+                              "operands": [
+                                {
+                                  "operator": "==",
+                                  "operands": [
+                                    "[$Title]",
+                                    "Onboarding new Employees"
+                                  ]
+                                },
+                                "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkPink' , 'sp-css-backgroundColor-BgLilac sp-css-color-LilacFont')+' sp-field-fontSizeSmall'",
+                                {
+                                  "operator": ":",
+                                  "operands": [
+                                    {
+                                      "operator": "==",
+                                      "operands": [
+                                        "[$Title]",
+                                        "Facilities Management Checklist"
+                                      ]
+                                    },
+                                    "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkGreen' , 'sp-css-backgroundColor-BgSage sp-css-color-SageFont')+' sp-field-fontSizeSmall'",
+                                    {
+                                      "operator": ":",
+                                      "operands": [
+                                        {
+                                          "operator": "==",
+                                          "operands": [
+                                            "[$Title]",
+                                            "Kickoff Project Z"
+                                          ]
+                                        },
+                                        "=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkRed' , 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont')+' sp-field-fontSizeSmall'",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
